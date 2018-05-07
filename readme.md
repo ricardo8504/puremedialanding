@@ -31,12 +31,14 @@ Concepts
   
 - Pseudo Elements --> to makeup the code to make it prettier 
 Suggestions
--
 
 - Bigger files instead of multiple files for downloading(there should be a balance)--> it is reliant to what i want to get
-- 
+
 
 
 Plugins Visual Studio Code
 
-- Emmet --> scafolding html
+- Emmet --> scafolding html,eg.
+ !
+ p>ul>li*4
+- Sass --> syntax
