@@ -88,3 +88,15 @@ Notes
 
   Books
   - HandBook CSS
+
+  Display Types
+  - Block
+  - Fixed
+
+Shortcups Examples
+- section.l-header>div.logo+ul.menu.menu-items>li.menu-item*6>a
+
+
+URLS
+
+- https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties
