@@ -1,12 +1,31 @@
 .menu{
     display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.menu-items{
+    position: absolute;
+    top:$offset-65;
+    background-color: $grey-dark;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 40px 15px;
+    left: 0;
+    right:0;
+}
+
+.menu-item{
+    border-bottom: 1px dotted $grey;
+    &:last-of-type{
+        border-bottom: none;
+    }
 }
 
 .logo{
     background: $img-logo no-repeat center;
     width: 126px;
-    height: 200px;
     font-size: 0;
-
 }
 

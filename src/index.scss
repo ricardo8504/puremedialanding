@@ -1,7 +1,9 @@
 
 @import url("styles/variables.scss");
 @import url("styles/layout-rules.scss");
+//Components Mobile First
 @import url("styles/components/menu.scss");
+
 @import url("styles/components/menu-media.scss");
 
 $brand : #F98355;
