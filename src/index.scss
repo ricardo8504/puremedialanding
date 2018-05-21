@@ -1,44 +1,7 @@
 
-@import url("styles/variables.scss");
-@import url("styles/layout-rules.scss");
+@import "styles/variables.scss";
+@import "styles/layout-rules.scss";
 //Components Mobile First
-@import url("styles/components/menu.scss");
+@import "styles/components/menu.scss";
 
-@import url("styles/components/menu-media.scss");
-
-$brand : #F98355;
-ul{
-    #summer-drinks{
-        li {
-            font-weight: normal;
-            font-size: 12px;
-            color: black;
-         }
-    } 
-}    
-
-.favorite {
-    color: red;
-    font-weight: bold;
-}
-
-.promos-container-type-02 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-
-.promos-zone-type2 {
-    flex: 1 0 100%;
- 
-}
-
-@media screen and (min-width: 768px){
-    .promos-zone-type2 {
-        flex: 1 0 50%;
-    }
-}
-
-
+@import "styles/components/menu-media.scss";
