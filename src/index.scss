@@ -1,7 +1,12 @@
 
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+
 @import "styles/variables.scss";
+@import "styles/base-rules.scss";
 @import "styles/layout-rules.scss";
 //Components Mobile First
 @import "styles/components/menu.scss";
-
+@import "styles/components/hero.scss";
+//Media Rules
 @import "styles/components/menu-media.scss";
+@import "styles/components/hero-media.scss";
